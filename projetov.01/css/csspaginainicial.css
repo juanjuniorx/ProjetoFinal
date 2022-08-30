@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.contenedor{ /*Definições de preenchimento, altura e margem do site*/
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{ /*Titulo*/
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{ /*Menu e topo da página*/
+    width: 100%;
+    height: 600px;
+    background: #076585; 
+     /*Efeito degrade no menu*/
+    background: -webkit-linear-gradient(to right, rgba(56, 191, 245, 0.644), #1a75fd9c), url(../imagens/parallax2.jpg);
+    background: linear-gradient(to right, rgba(25, 255, 236, 0.507), #1a75fd9c), url(../imagens/parallax2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{ /*Menu da página inicial*/
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{ /*Textos do menu*/
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav > a:hover{ /*O hover permite a criação de diversos efeitos interessantes em uma página HTML*/
+    text-decoration: underline;
+}
+
+header .textos-header{ /*Alinhamento dos textos da header*/
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{ /*Nome do site e slogan*/
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{ /*Nome do site e slogan*/
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.fundo-letra{ /*A classe fundo-letra e fundo-letra2 define a cor e coloca uma sombra no texto */
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.fundo-letra2{
+    color: white; text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.wave{ /*Efeito da onda que separa o menu do resto do site*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor-sobre-nosotros{ /*Posiciona as informações de serviços prestados */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{ /*Para ajustar tamanho da imagem */
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos{ /* Ajusta a largura das informações de serviços prestados */
+    width: 48%;
+}
+
+.contenido-textos h3{ /*Define a margin area na parte inferior de um elemento, usando px para tamanho absoluto */
+    margin-bottom: 15px;
+
+}
+
+.contenedor-fa{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de localidade */
+
+    width: 280px; /*Largura da caixa de texto*/
+    padding: 1em; /*Preenchimento do site*/
+    margin:  1em;  /*Margem*/
+    display: inline-block; /*Quando você passa a regra display:block o elemento fica empilhado enquanto que display:inline ele fica alinhado (no meio do texto)*/
+    vertical-align: top; /*Alinhamento vertical do texto*/
+    text-align: center;  /*Alinhar texto no centro da página*/
+    text-align: justify; /*Justicando o texto*/
+}
+
+.contet-fb{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de exames */
+    width: 280px;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+}
+
+.contet-fc{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto da covid */
+    width: 280px;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+}
+
+.contet-fd{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de informação OBS:(O display inline-block foi usado para que todos os textos fiquem na mesma linha e um ao lado do outro). */
+    width: 280px;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+}
+.linha{ /*Tamanho e cor da linha embaixo do formulário*/
+    width: 450px;
+    background-color: black;
+}
+
+.logo-marista{ /*Logo do marista centralizada*/
+   align-self: center;
+}
+
+.titulo-formulario{ /* Aqui eu centralizei o titúlo do formulário*/
+    text-align: center;
+    border: 1px;
+    
+}
+
+.dengue{
+    color:rgb(5,119,196);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <!--Logo na aba-->
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon"> 
+        <script src="js/validacao.js"></script>
+</head>
+<body>
+          <br>
+          <br>
+          <br>
+              <!--Título login-->
+              <center><h3 class="cadastro-estilo" style ="color:rgb(5,119,196)">Login</h3></center>
+              <br>
+              <br>
+              <!--Campo de login, com o máximo de 30 caracteres -->
+              <div class="d-grip gap-2 col-3 mx-auto">
+              <form method="post">
+              <label class="form-label" style="color:rgb(5,119,196)">Login:</label>
+              <input type="text" maxlength="30" class="form-control" id="login" name= "nome" placeholder="Seu nome:">
+              </div>
+              <br>
+              <!--Campo de senha, com o máximo de 10 caracteres -->
+              <div class="d-grip gap-2 col-3 mx-auto">
+              <label class="form-label" style="color:rgb(5,119,196)">Senha:</label>
+              <input type="password" maxlength="10" class="form-control" name="senha" id="senha" placeholder="Sua Senha:">
+              <br>
+              </div>
+                      <!--Botão de logar-->
+                      <center>
+                      <div class="d-grip gap-2 col-3 mx-auto">
+                     <input type="submit" class="btn btn-primary" onclick="logar(); return false">
+       </form>
+       <br>
+       <br>
+</body>
+</html>
