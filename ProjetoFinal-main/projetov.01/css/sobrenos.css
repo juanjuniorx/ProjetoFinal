@@ -1,0 +1,100 @@
+/*custumização do corpo do site*/
+
+body
+{
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a{
+    color: rgb(103, 156, 226);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+/*formatação das imagens*/
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.imagem1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.imagem2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.imagem3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/*custumização dos cards*/
+
+.card1{
+   background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+}
+
+.card2{
+    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+}
+
+.card3{
+    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+}
+
+.card4{
+    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+}
+
+/*formatação dos nomes*/
+
+h5{
+    text-align: center;
+    font-weight: 300;
+}
+
+/*formatação do titulo e da informação*/
+
+.contet-fe{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.wave{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.linha{
+    width: 450px;
+    background-color: black;
+}
